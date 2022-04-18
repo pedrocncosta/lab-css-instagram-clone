@@ -6,5 +6,72 @@ light blue: #1c5380
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   margin: 0;
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainSection {
+  margin-top: 130px;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.brandBackground {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sectionBackground {
+  width: 26%;
+  height: 24%;
+  display: flex;
+  flex-direction: column;
+}
+.phoneSection {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+button {
+  width: 18%;
+  margin: auto;
+  padding: 6px;
+  border-style: hidden;
+  border-radius: 10%;
+  color: white;
+  background-color: #1c5380;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textBackground {
+  background-image: url(../images/frame.png);
+  background-size: cover;
+  text-align: left;
+  padding: 40px;
+}
+.twoImagesBottom {
+  margin-left: 35px;
+}
+
+.footer {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.footer li {
+  margin: 20px;
+  color: #06365f;
 }
